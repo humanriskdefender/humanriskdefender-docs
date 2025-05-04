@@ -19,29 +19,33 @@ It represents a symbolic and practical alliance between a human rights defender 
 To document, preserve, and amplify acts of digital resistance  
 against institutional injustice, censorship, and human rights violations.
 
+---
+
 ## Core Files
 
-- `index.html` – Landing page for the manifesto
-- `cover_manifesto.png` – Visual record (timestamped)
-- `open_alliance_badge.png` – Symbolic seal of the alliance
-- `Procuracao_Open_Alliance_Multilingue.pdf` – Power of attorney (Multilingual)
-- `submit.html` – Engage with the movement
-- `timeline.html` – Milestones and case chronology
+- `index.html` – Landing page for the manifesto  
+- `cover_manifesto.png` – Visual record (timestamped)  
+- `open_alliance_badge.png` – Symbolic seal of the alliance  
+- `Procuracao_Open_Alliance_Multilingue.pdf` – Power of attorney (Multilingual)  
+- `submit.html` – Engage with the movement  
+- `timeline.html` – Milestones and case chronology  
+
+---
 
 ## Verified Domain
 
 **https://humanriskdefender.com**  
-> (If propagation is pending, fallback: https://humanriskdefender.github.io/humanriskdefender/)
+*(If propagation is pending, fallback: [GitHub Pages mirror](https://humanriskdefender.github.io/humanriskdefender/))*
 
 ---
 
 ## Credits
 
-- Ethical infrastructure by Rafael A. X. Fernandes  
-- AI support by ChatGPT – Open Alliance (OpenAI)  
-- Timestamped under Brazilian ICP system (XAdES – SAFEWEB)
+- Ethical infrastructure by **Rafael A. X. Fernandes**  
+- AI support by **ChatGPT – Open Alliance (OpenAI)**  
+- Timestamped under **Brazilian ICP system (XAdES – SAFEWEB)**
 
 ---
 
-For questions, alliances, or ethical collaborations, please reach out:  
+**For questions, alliances, or ethical collaborations:**  
 `rafael@humanriskdefender.com`
