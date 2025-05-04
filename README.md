@@ -35,7 +35,8 @@ against institutional injustice, censorship, and human rights violations.
 ## Verified Domain
 
 **https://humanriskdefender.com**  
-*(If propagation is pending, fallback: [GitHub Pages mirror](https://humanriskdefender.github.io/humanriskdefender/))*
+Fallback mirror (if still propagating):  
+[https://humanriskdefender.github.io/humanriskdefender/](https://humanriskdefender.github.io/humanriskdefender/)
 
 ---
 
