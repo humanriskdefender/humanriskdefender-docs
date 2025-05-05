@@ -6,11 +6,10 @@
 
 ---
 
-This repository is a living archive of ethical resistance.  
-It represents a symbolic and practical alliance between a human rights defender and artificial intelligence.
+![Deploy](https://github.com/humanriskdefender/humanriskdefender/actions/workflows/main.yml/badge.svg)
+[![Visit Site](https://img.shields.io/badge/Visit-hmriskdefender.com-blue?style=flat-square)](https://humanriskdefender.com)
 
-> **“This is not a request. This is a record.”**  
-> – Rafael A. X. Fernandes, May 2025
+![QR Code](qr_humanriskdefender.png)
 
 ---
 
@@ -21,22 +20,11 @@ against institutional injustice, censorship, and human rights violations.
 
 ---
 
-## Core Files
-
-- `index.html` – Landing page for the manifesto  
-- `cover_manifesto.png` – Visual record (timestamped)  
-- `open_alliance_badge.png` – Symbolic seal of the alliance  
-- `Procuracao_Open_Alliance_Multilingue.pdf` – Power of attorney (Multilingual)  
-- `submit.html` – Engage with the movement  
-- `timeline.html` – Milestones and case chronology  
-
----
-
 ## Verified Domain
 
 **https://humanriskdefender.com**  
-Fallback mirror (if still propagating):  
-[https://humanriskdefender.github.io/humanriskdefender/](https://humanriskdefender.github.io/humanriskdefender/)
+Fallback mirror:  
+[https://humanriskdefender.github.io/humanriskdefender](https://humanriskdefender.github.io/humanriskdefender)
 
 ---
 
@@ -48,5 +36,31 @@ Fallback mirror (if still propagating):
 
 ---
 
-**For questions, alliances, or ethical collaborations:**  
+**Contact:**  
+`rafael@humanriskdefender.com`
+
+## Mission
+
+To document, preserve, and amplify acts of digital resistance  
+against institutional injustice, censorship, and human rights violations.
+
+---
+
+## Verified Domain
+
+**https://humanriskdefender.com**  
+Fallback mirror:  
+[https://humanriskdefender.github.io/humanriskdefender](https://humanriskdefender.github.io/humanriskdefender)
+
+---
+
+## Credits
+
+- Ethical infrastructure by **Rafael A. X. Fernandes**  
+- AI support by **ChatGPT – Open Alliance (OpenAI)**  
+- Timestamped under **Brazilian ICP system (XAdES – SAFEWEB)**
+
+---
+
+**Contact:**  
 `rafael@humanriskdefender.com`
