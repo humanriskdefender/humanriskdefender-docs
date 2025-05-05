@@ -1,19 +1,7 @@
-name: Deploy GitHub Pages
+• contents: write: Grants write access to the repository contents, which is necessary for tasks like committing or pushing changes.
 
-on:
-  push:
-    branches:
-      - main
+• pages: write: Grants access to manage GitHub Pages, which is required for deploying content to GitHub Pages.
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+• id-token: write: Allows the workflow to mint OpenID Connect (OIDC) tokens, which can be used for secure authentication to external cloud services.
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+If you have additional steps or need help completing the workflow, let me know!
