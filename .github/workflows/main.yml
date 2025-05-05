@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+ name: Deploy static site to GitHub Pages
 
 on:
   push:
@@ -14,21 +14,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout do repositório
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Instalar dependências
-      - name: Install dependencies
-        run: npm install
-
-      # 3. Construir o projeto
-      - name: Build project
-        run: npm run build
-
-      # 4. Deploy para o GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./disttáticos são gerados
+          publish_dir: ./
+          publish_branch: gh-pages
