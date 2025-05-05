@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js (se necessário, ajuste a versão)
+      - name: Setup Node.js (substitua pela versão que você usa)
         uses: actions/setup-node@v3
         with:
           node-version: '16'
@@ -32,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Substitua com o diretório onde os arquivos estáticos são gerados
+          publish_dir: ./dist # ajuste para o diretório onde os arquivos estáticos são gerados
