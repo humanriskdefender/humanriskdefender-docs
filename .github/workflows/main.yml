@@ -18,26 +18,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Verificar o diretório atual (opcional para debug)
-      - name: Verificar diretório atual
-        run: pwd
-
-      # 3. Mudar para o diretório correto, se necessário
-      # Substitua '<subdiretorio>' pelo nome correto do diretório se o package.json não estiver na raiz
-      - name: Change to project directory (se necessário)
-        run: cd <subdiretorio> # Remova ou ajuste se o package.json estiver na raiz
-
-      # 4. Instalar dependências
+      # 2. Instalar dependências
       - name: Install dependencies
         run: npm install
 
-      # 5. Construir o projeto
+      # 3. Construir o projeto
       - name: Build project
         run: npm run build
 
-      # 6. Deploy para o GitHub Pages
+      # 4. Deploy para o GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # Ajuste para o diretório onde os arquivos estáticos são gerados
+          publish_dir: ./disttáticos são gerados
